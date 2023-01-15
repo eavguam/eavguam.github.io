@@ -17,6 +17,10 @@ body {
     overflow-x: hidden;
 }
 
+video::-webkit-media-controls-start-playback-button {
+    display: none;
+}
+
 .center {
     margin: auto;
     width: 75%;
@@ -79,7 +83,7 @@ h2, p { color: #666666; }
 #tm-video-container {
     max-height: 720px;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(0, 0, 0);
 }
 
 #tm-video {
@@ -95,6 +99,7 @@ h2, p { color: #666666; }
 .tm-bg-gray { background-color: #F4F4F4; }
 .tm-text-primary { color: #3399CC; }
 .tm-text-secondary { color: #3CAFAF; }
+.tm-text-normal { color: #363636; }
 
 .tm-nav-link {
     color: white;
@@ -234,6 +239,7 @@ h2, p { color: #666666; }
 }
 
 .tm-page-title { font-size: 2.5rem; }
+.tm-font-smallish { font-size: 1.75rem; }
 .tm-catalog-item-list { justify-content: space-between; }
 
 .tm-catalog-item {
