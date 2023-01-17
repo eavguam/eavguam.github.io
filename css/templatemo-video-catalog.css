@@ -1,11 +1,3 @@
-/*
-
-TemplateMo 552 Video Catalog
-
-https://templatemo.com/tm-552-video-catalog
-
-*/
-
 html { scroll-behavior: smooth; overflow-x: hidden; }
 
 body {
@@ -19,6 +11,22 @@ body {
 
 video::-webkit-media-controls-start-playback-button {
     display: none;
+}
+
+.members {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-bottom:10px
+}
+
+.section {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:60px
 }
 
 .center {
